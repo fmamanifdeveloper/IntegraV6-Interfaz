@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "IntegraV6-Interfaz:build:production"
+              "buildTarget": "IntegraV6-Interfaz:build:production"
             },
             "development": {
-              "browserTarget": "IntegraV6-Interfaz:build:development"
+              "buildTarget": "IntegraV6-Interfaz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "IntegraV6-Interfaz:build"
+            "buildTarget": "IntegraV6-Interfaz:build"
           }
         },
         "test": {

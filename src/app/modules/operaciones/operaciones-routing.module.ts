@@ -1,12 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-// const routes: Routes = [
-//   {
-//     path: '',
-//     component: AdminComponent,
-//   },
-// ];
+
 
 @NgModule({
   declarations: [],
@@ -14,4 +9,4 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
-export class AppRoutingModule { }
+export class OperacionesRoutingModule { }

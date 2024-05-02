@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
-import { ComercialRoutingModule } from './modules/comercial/comercial-routing.module';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +11,7 @@ import { ComercialRoutingModule } from './modules/comercial/comercial-routing.mo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ComercialRoutingModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

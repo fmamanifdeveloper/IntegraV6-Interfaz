@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './comercial.component.scss'
 })
 export class ComercialComponent {
-
+  
 }
